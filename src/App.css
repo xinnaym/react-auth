@@ -1,0 +1,112 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Навбар сверху */
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #1a1a1a;
+}
+
+nav a {
+  margin-right: 10px;
+  color: #646cff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #535bf2;
+}
+
+nav button {
+  margin-left: auto;
+}
+
+/* Центрирование форм */
+.form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 30px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
+
+.form-container input {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: inherit;
+  font-size: 1em;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.form-container button[type="submit"] {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #535bf2;
+}
+
+/* Главная страница */
+.home-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Профиль */
+.profile-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-container p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
